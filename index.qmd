@@ -35,6 +35,5 @@ resumen
 #| code-fold: true
 ggplot(resumen)+
   geom_col(aes (x=sexo, y=n ,fill=sexo), alpha=0.6)+
-  ggthemes::scale_fill_colorblind()+
   theme_minimal()
 ```
